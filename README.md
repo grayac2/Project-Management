@@ -4,8 +4,7 @@ This application was created as a project for a university course. Anyone is fre
 
 ### What is this repository for? ###
 
-* Quick summary
-This application is a project management tool. It allows the user to manage people, projects, and roles. It also allows assignment of the three to each other. It currently does not support user authentication, so it is most suitable for local use only, unless modified.
+* This application is a project management tool. It allows the user to manage people, projects, and roles. It also allows assignment of the three to each other. It currently does not support user authentication, so it is most suitable for local use only, unless modified.
 
 * Version 1.0.0
 
