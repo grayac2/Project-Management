@@ -1,0 +1,30 @@
+
+@model IEnumerable<Project2.Models.ViewModels.ProjectGroupVM>
+@using Project2.Models.ViewModels
+
+@{
+    ViewData["Title"] = "Person Roles By Project";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                <h3>
+                    @Html.DisplayFor(modelItem => item.ProjectName)
+                </h3>
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                @Html.Partial("PersonRolesByProjectPartial", item.ProjectRoles)
+            </td>
+
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,9 @@
+@model IEnumerable<Project2.Models.ViewModels.SelectProjectVM>
+
+    @foreach (var project in Model)
+    {
+        if (project.ProjectId != ViewBag.projectid) //Prevent current model's project from being displayed twice
+        {
+            <option value="@project.ProjectId">@project.ProjectName</option>
+        }
+    }

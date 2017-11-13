@@ -1,0 +1,11 @@
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.deps.json
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.json
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.runtimeconfig.dev.json
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.dll
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\bin\Debug\netcoreapp1.1\Project2.pdb
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.csprojResolveAssemblyReference.cache
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.csproj.CoreCompileInputs.cache
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfoInputs.cache
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.AssemblyInfo.cs
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.dll
+C:\Users\adamr_000\OneDrive - East Tennessee State University\Visual Studio Projects\Project2\Project2\obj\Debug\netcoreapp1.1\Project2.pdb

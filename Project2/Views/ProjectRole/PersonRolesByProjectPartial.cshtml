@@ -1,0 +1,27 @@
+@model IEnumerable<Project2.Models.Entities.ProjectRole>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Full Name
+        </th>
+        <th>
+            Role
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Person.FirstName) @Html.DisplayFor(modelItem => item.Person.MiddleName) @Html.DisplayFor(modelItem => item.Person.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role.Name)
+            </td>
+        </tr>
+    }
+
+    </tbody>
+</table>

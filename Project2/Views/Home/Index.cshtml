@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<h2>Welcome to Project Management!</h2>
+<br/>
+<br/>
+<h3>Begin by choosing an option below.</h3>
+<div class="row thmb">
+    <div class="col-md-3 col-centered">
+        <a asp-action="Index" asp-controller="Project"><img class="thmb" src="images/project.png"/></a>
+        <h4 class="thmb">Manage Projects</h4>
+    </div>
+    <div class="col-md-3">
+        <a asp-action="Index" asp-controller="Person"><img class="thmb" src="images/person.png"/></a>
+        <h4 class="thmb">Manage People</h4>
+    </div>
+    <div class="col-md-3">
+        <a asp-action="Index" asp-controller="Role"><img class="thmb" src="images/role.png"/></a>
+        <h4 class="thmb">Manage Roles</h4>
+    </div>
+    <div class="col-md-3">
+        <a asp-action="Index" asp-controller="ProjectRole"><img class="thmb" src="images/projectrole.png"/></a>
+        <h4 class="thmb">Manage Project Roles</h4>
+    </div>
+</div>

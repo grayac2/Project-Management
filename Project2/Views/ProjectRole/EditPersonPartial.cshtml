@@ -1,0 +1,9 @@
+@model IEnumerable<Project2.Models.ViewModels.PersonNameVM>
+
+@foreach (var person in Model)
+{
+    if (person.Id != ViewBag.personid)  //Prevent current model's person from being displayed twice
+    {
+        <option value="@person.Id">@person.Name</option>
+    }
+}

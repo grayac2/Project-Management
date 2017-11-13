@@ -1,0 +1,39 @@
+@model Project2.Models.ViewModels.ProjectRoleVM
+
+@{
+    ViewData["Title"] = "Delete Project Role";
+}
+
+<h2>Delete Project Role</h2>
+
+<h3>Are you sure you want to delete this Project Role?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Project Name
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProjectName)
+        </dd>
+        <dt>
+            Person Name
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PersonName)
+        </dd>
+        <dt>
+            Role Name
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RoleName)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            <a asp-action="Index">Back to List</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,9 @@
+@model IEnumerable<Project2.Models.ViewModels.RoleNameVM>
+
+@foreach (var role in Model)
+{
+    if (role.Id != ViewBag.roleid)  //Prevent current model's role from being displayed twice
+    {
+        <option value="@role.Id">@role.Name</option>
+    }
+}

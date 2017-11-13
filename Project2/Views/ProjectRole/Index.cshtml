@@ -1,0 +1,47 @@
+@model IEnumerable<Project2.Models.ViewModels.ProjectRoleVM>
+
+@{
+    ViewData["Title"] = "Manage Project Roles";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    Project Name
+                </th>
+                <th>
+                    Person Name
+                </th>
+                <th>
+                    Role Name
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProjectName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PersonName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoleName)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ProjectRoleId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ProjectRoleId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="AssignRole">Assign Project Role</a>
+</p>
